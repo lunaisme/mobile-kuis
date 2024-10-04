@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
                             ),
                             Text(produk.name),
                             Text(produk.price),
-                            Text(produk.name),
+                            Text(produk.stock.toString()),
                           ],
                         ),
                       );
